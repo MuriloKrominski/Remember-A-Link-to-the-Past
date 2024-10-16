@@ -5,7 +5,7 @@
 pyautogui==0.9.53
 
 # Image processing / Processamento de imagens
-Pillow==9.0.1
+Pillow==10.3.0
 
 # Data storage in relational or NoSQL databases / Armazenamento de dados em bancos relacionais ou NoSQL
 sqlite3  # for SQLite, built-in with Python / para SQLite, já embutido no Python
