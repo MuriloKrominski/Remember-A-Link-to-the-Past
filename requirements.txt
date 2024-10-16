@@ -17,7 +17,7 @@ faiss-cpu==1.7.2  # For efficient vector search / Para busca vetorial eficiente
 sentence-transformers==2.2.2  # To generate text embeddings / Para gerar embeddings de texto
 
 # User interface / Interface de usuário (opcional)
-streamlit==1.2.0
+streamlit==1.37.0
 
 # Other dependencies / Outras dependências
 numpy==1.21.2  # Commonly used in many AI models / Usado em muitos modelos de IA
