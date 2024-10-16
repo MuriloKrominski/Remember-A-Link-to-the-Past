@@ -11,7 +11,30 @@ This project was originally documented in Portuguese.
 
 By <a href="https://github.com/MuriloKrominski">Murilo Krominski</a>.
 
-```This repository contains an innovative project that creates functionalities allowing users/managers to "go back in time" to find a record of any activity performed on the computer in a solution using just a few lines of Python code at each stage, providing an accessible and powerful alternative for companies and developers.```
+This repository contains an innovative project that creates functionalities allowing users/managers to "go back in time" to find a record of any activity performed on the computer in a solution using just a few lines of Python code at each stage, providing an accessible and powerful alternative for companies and developers.
+
+---
+
+## Table of Contents
+- [Contact](#contact)
+- [Versions and Collaborations](#versions-and-collaborations)
+- [What is "Remember: A Link to the Past"?](#what-is-remember-a-link-to-the-past)
+- [Key Benefits](#key-benefits)
+- [Ideal For](#ideal-for)
+- [Workflow and Features](#workflow-and-features)
+- [Step-by-Step Implementation](#step-by-step-implementation)
+  - [1. Screen Capture](#1-screen-capture)
+  - [2. Image Processing with AI](#2-image-processing-with-ai)
+  - [3. Storage and Search](#3-storage-and-search)
+  - [4. Search Interface](#4-search-interface)
+- [Advanced Technical Data](#advanced-technical-data)
+- [Opportunities for Improvements and Commercial Expansion](#opportunities-for-improvements-and-commercial-expansion)
+  - [Potential Improvements](#potential-improvements)
+  - [Commercial Possibilities](#commercial-possibilities)
+- [Legal Disclaimer](#legal-disclaimer)
+- [Use of Terms and Comparisons](#use-of-terms-and-comparisons)
+- [Educational and Experimental Nature](#educational-and-experimental-nature)
+- [Respect for Intellectual Property Laws](#respect-for-intellectual-property-laws)
 
 ---
 
@@ -24,14 +47,26 @@ Interested in the project? Get in touch.
 
 ---
 
-## Versions and Collaborations:
+## Versions, Collaborations, and Sponsorships:
 - Private alpha version "α (PRIVATE)": `v0.1-alpha`
 - Public beta version "β (PUBLIC)": `v1.0-beta`
-- Commercial gamma versions "γ (COMMERCIAL)" - requested on demand: `v2.x-release`
+- Commercial gamma versions "γ (COMMERCIAL)" - available on demand: `v2.x-release`
 
-```Anyone can clone and contribute to the beta.```
+> Anyone can clone and contribute to the beta version.
+>
+> Suggestions for improvements to the public beta version "β (PUBLIC)", whether in code or in documentation details, are very welcome.
+>
+> In this documentation, all steps of my project are fully commented, ensuring that any experienced developer can reproduce it efficiently.
 
-```In this documentation, all steps of my project are properly commented, ensuring that any experienced programmer can efficiently reproduce it.```
+> If you wish to support the development of this and other public projects, I will be immensely grateful!
+>
+> Your sponsorship helps me dedicate more time to developing new features, fixing bugs, and keeping everything up to date.
+>
+> Every voluntary contribution helps us create more OpenSource projects in the "β (PUBLIC)" version, with more detailed documentation.
+>
+> Sponsors may receive rewards and mentions.
+>
+> - [Sponsor via GitHub Sponsors](https://github.com/sponsors/MuriloKrominski)
 
 > **REPOSITORY α (PRIVATE)**:<br>
 > - Description: Private development projects, still in research, testing or personal use phase.<br>
@@ -75,7 +110,6 @@ Remember's advanced technology centralizes and organizes all essential informati
 ---
 
 ## Workflow and Features
-
 1. **Automatic Screenshot Capture**: Captures screenshots at defined time intervals and stores them locally.
 2. **AI Image Processing**: The captured images are processed to identify open applications, transcribe text, and generate descriptions and other metadata.
 3. **Vector Database and Storage**: The extracted descriptions and metadata are saved and vectorized in a database, enabling quick and efficient searches in the future.
@@ -84,7 +118,6 @@ Remember's advanced technology centralizes and organizes all essential informati
 ---
 
 ## Step-by-Step Implementation
-
 Here is an overview of the implementation steps and code suggestions:
 
 ### 1. Screen Capture
@@ -136,7 +169,6 @@ def process_image(self, img_path, prompt="Descreva o que está vendo na imagem")
 ---
 
 ### 3. Storage and Search
-
 The processed data is stored and can be searched later for relevant content.
 
 ```python
@@ -159,7 +191,6 @@ vectorstore = FAISS.from_documents(documents, embeddings)
 ---
 
 ### 4. Search Interface
-
 Implementing a simple interface to facilitate search.
 
 ```python
@@ -181,7 +212,6 @@ if query:
 ---
 
 ## Advanced Technical Data
-
 The project uses accessible technologies, with great potential for expansion and customization:
 
 - **Screen Capture**: Implemented with the **PyAutoGUI** library, configurable for regular intervals.
@@ -192,19 +222,17 @@ The project uses accessible technologies, with great potential for expansion and
 
 ---
 
-## Opportunities for Improvement and Commercial Expansion
+## Opportunities for Improvements and Commercial Expansion
 
 This project presents several opportunities for improvement and expansion, both as a product and as a service, offering various business opportunities:
 
 ### Potential Improvements
-
 1. **Improved Image Recognition**: Develop AI models specifically trained for the company's context, increasing search accuracy and relevance.
 2. **Advanced Semantic Search**: Implement a search system based on user intent, going beyond simple keywords with advanced LLMs.
 3. **Integration with Corporate Tools**: Add support for platforms like Microsoft 365, Slack, Trello, and others, facilitating integration into the company's daily workflow.
 4. **Security and Compliance**: Ensure robust encryption and adherence to regulations such as LGPD and GDPR.
 
 ### Commercial Possibilities
-
 1. **Software Licensing**
    - Commercialize **"Remember: A Link to the Past"** as licensed software for companies.
    - Offer a SaaS (Software as a Service) model, allowing companies to access the tool through subscriptions.
@@ -227,25 +255,27 @@ This project presents several opportunities for improvement and expansion, both 
 ---
 
 ### Legal Disclaimer
-`This project, called **"Remember: A Link to the Past"**, is NOT a clone, copy, or direct reproduction of any proprietary technology. This project was developed independently and is intended to demonstrate concepts of screen capture, image processing with artificial intelligence, and vectorized information search systems, using open-source tools and libraries.`
+> This project, called "Remember: A Link to the Past", is NOT a clone, copy, or direct reproduction of any proprietary technology. This project was developed independently and is intended to demonstrate concepts of screen capture, image processing with artificial intelligence, and vectorized information search systems, using open-source tools and libraries.
 
 ### Use of Terms and Comparisons
-`- **Does not use** proprietary codes, algorithms, or methods.`
+> Does not use proprietary codes, algorithms, or methods.
 
-`- **Does not appropriate** any resources, libraries, or APIs improperly or without compliance with intellectual property laws.`
+> Does not appropriate** any resources, libraries, or APIs improperly or without compliance with intellectual property laws.
 
-`- **Does not infringe** patents, copyrights, or trademarks of any entity.`
+> Does not infringe patents, copyrights, or trademarks of any entity.
 
 ### Educational and Experimental Nature
 
-`This project was developed with **educational and experimental purposes**, aimed at exploring and demonstrating widely known techniques in the area of screen capture and artificial intelligence, although it may lead to later commercial applications. All code provided here is public domain knowledge or built using open-source tools, constructed from scratch without the use of any proprietary components.`
+> This project was developed with educational and experimental purposes, aimed at exploring and demonstrating widely known techniques in the area of screen capture and artificial intelligence, although it may lead to later commercial applications. All code provided here is public domain knowledge or built using open-source tools, constructed from scratch without the use of any proprietary components.
 
 ### Respect for Intellectual Property Laws
 
-`The author of the project **strictly respects** intellectual property laws and encourages responsible and ethical use of the code. The commercial use or distribution of this project is not prohibited but must comply with all applicable intellectual property protection regulations.`
+> The author of the project strictly respects intellectual property laws and encourages responsible and ethical use of the code. The commercial use or distribution of this project is not prohibited but must comply with all applicable intellectual property protection regulations.
 
 ---
 
 ---
 
 ---
+<!-- @MuriloKrominski #MuriloKrominski
+-->

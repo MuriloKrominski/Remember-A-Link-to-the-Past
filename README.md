@@ -11,7 +11,30 @@ This project is also documented in English.
 
 Por <a href="https://github.com/MuriloKrominski">Murilo Krominski</a>.
 
-```Este repositório contém um projeto inovador que cria funcionalidades que permite aos usuários/gestores "voltar no tempo" para encontrar um registro de qualquer atividade realizada no computador em uma solução utilizando poucas linhas de código em Python em cada etapa, trazendo uma alternativa acessível e poderosa para empresas e desenvolvedores.```
+Este repositório contém um projeto inovador que cria funcionalidades que permite aos usuários/gestores "voltar no tempo" para encontrar um registro de qualquer atividade realizada no computador em uma solução utilizando poucas linhas de código em Python em cada etapa, trazendo uma alternativa acessível e poderosa para empresas e desenvolvedores.
+
+---
+
+## Índice
+- [Contato](#contato)
+- [Versões, Colaborações e Patrocínios](#versões-colaborações-e-patrocínios)
+- [O que é o "Remember: A Link to the Past"?](#o-que-é-o-remember-a-link-to-the-past)
+- [Principais Benefícios](#principais-benefícios)
+- [Para Quem é Ideal](#para-quem-é-ideal)
+- [Fluxo e Funcionalidades](#fluxo-e-funcionalidades)
+- [Passo a Passo para Implementação](#passo-a-passo-para-implementação)
+  - [1. Captura de Tela](#1-captura-de-tela)
+  - [2. Processamento de Imagens com IA](#2-processamento-de-imagens-com-ia)
+  - [3. Armazenamento e Busca](#3-armazenamento-e-busca)
+  - [4. Interface de Busca](#4-interface-de-busca)
+- [Dados Técnicos Avançados](#dados-técnicos-avançados)
+- [Oportunidades de Melhoria e Expansão Comercial](#oportunidades-de-melhorias-e-expansão-comercial)
+  - [Melhorias Potenciais](#melhorias-potenciais)
+  - [Possibilidades Comerciais](#possibilidades-comerciais)
+- [Declaração de Isenção de Responsabilidade Legal](#declaração-de-isenção-de-responsabilidade-legal)
+- [Uso de Termos e Comparações](#uso-de-termos-e-comparações)
+- [Natureza do Projeto](#natureza-do-projeto)
+- [Respeito às Leis de Propriedade Intelectual](#respeito-às-leis-de-propriedade-intelectual)
 
 ---
 
@@ -24,14 +47,26 @@ Interessado no projeto? Entre em contato.
 
 ---
 
-## Versões e Colaborações:
+## Versões, Colaborações e Patrocínios:
 - Versão alpha privada "α (PRIVADO)": `v0.1-alpha`
 - Versão beta publica "β (PÚBLICO)": `v1.0-beta`
 - Versões gama comerciais "γ (COMERCIAL)" - solicitadas sob demanda: `v2.x-release`
 
-```Qualquer pessoa pode clonar e contribuir no beta.```
+> Qualquer pessoa pode clonar e contribuir no beta.
+>
+> Sugestões de melhorias da versão beta publica "β (PÚBLICO)", sejam em código ou no detalhamento de descrições, são muito bem vindas.
+>
+> Nesta documentação, todos os passos do meu projeto estão devidamente comentados, garantindo que qualquer programador experiente possa reproduzi-lo de forma eficiente.
 
-```Nesta documentação, todos os passos do meu projeto estão devidamente comentados, garantindo que qualquer programador experiente possa reproduzi-lo de forma eficiente.```
+> Se você deseja apoiar o desenvolvimento deste e de outros projetos públicos, ficarei imensamente grato!
+>
+> Seu patrocínio me ajuda a dedicar mais tempo para desenvolver novas funcionalidades, corrigir bugs e manter tudo atualizado.
+>
+> Toda contribuição voluntária ajuda a termos mais projetos OpenSource no "β (PÚBLICO)", com mais detalhamento.
+>
+> Apoiadores podem receber prêmios e menções.
+>
+> - [Patrocine através do GitHub Sponsors](https://github.com/sponsors/MuriloKrominski)
 
 > **REPOSITÓRIO α (PRIVADO)**:<br>
 > - Descrição: Projetos de desenvolvimento privado, ainda em fase de pesquisa, testes ou em uso pessoal.<br>
@@ -40,7 +75,7 @@ Interessado no projeto? Entre em contato.
 
 > **REPOSITÓRIO β (PÚBLICO)**:<br>
 > - Descrição: Projetos que são Open Source ou estão parcialmente disponíveis publicamente.<br>
-> - Acesso: Acesso público, qualquer pessoa pode clonar e contribuir.<br>
+> - Acesso: Acesso público, qualquer pessoa pode e é incentivada a clonar e contribuir.<br>
 > - Uso: Projetos Open Source ou de colaboração pública, documentados de forma que possam ser facilmente compreendidos ou reproduzidos.
 
 > **REPOSITÓRIO γ (COMERCIAL)**:<br>
@@ -75,7 +110,6 @@ A tecnologia avançada do Remember centraliza e organiza todas as informações 
 ---
 
 ## Fluxo e Funcionalidades
-
 1. **Captura de Tela Automática**: Captura screenshots a intervalos de tempo definidos e armazena localmente.
 2. **Processamento de Imagens com IA**: As imagens capturadas são processadas para identificar aplicativos abertos, transcrever textos e gerar descrições e outros metadados.
 3. **Banco de Dados e Armazenamento Vetorial**: As descrições e metadados extraídos são salvos e vetorizados em um banco de dados, permitindo buscas rápidas e eficientes no futuro.
@@ -84,7 +118,6 @@ A tecnologia avançada do Remember centraliza e organiza todas as informações 
 ---
 
 ## Passo a Passo para Implementação
-
 Aqui está uma visão geral das etapas de implementação e sugestões de códigos:
 
 ### 1. Captura de Tela
@@ -136,7 +169,6 @@ def process_image(self, img_path, prompt="Descreva o que está vendo na imagem")
 ---
 
 ### 3. Armazenamento e Busca
-
 Os dados processados são armazenados e podem ser buscados posteriormente por conteúdo relevante.
 
 ```python
@@ -159,7 +191,6 @@ vectorstore = FAISS.from_documents(documents, embeddings)
 ---
 
 ### 4. Interface de Busca
-
 Implementando uma interface simples para facilitar a pesquisa.
 
 ```python
@@ -181,7 +212,6 @@ if query:
 ---
 
 ## Dados Técnicos Avançados
-
 O projeto utiliza tecnologias acessíveis, com grande potencial de expansão e personalização:
 
 - **Captura de Tela**: Implementada com a biblioteca **PyAutoGUI**, configurável para intervalos regulares.
@@ -192,19 +222,16 @@ O projeto utiliza tecnologias acessíveis, com grande potencial de expansão e p
 
 ---
 
-## Oportunidades de Melhoria e Expansão Comercial
-
+## Oportunidades de Melhorias e Expansão Comercial
 Este projeto apresenta diversas possibilidades de aprimoramento e expansão, tanto como produto quanto como serviço, oferecendo várias oportunidades de negócio:
 
 ### Melhorias Potenciais
-
 1. **Aprimoramento do Reconhecimento de Imagens**: Desenvolver modelos de IA treinados especificamente para o contexto da empresa, aumentando a precisão e a relevância das buscas.
 2. **Pesquisa Semântica Avançada**: Implementar um sistema de busca baseado na intenção do usuário, indo além das simples palavras-chave com LLM avançado.
 3. **Integração com Ferramentas Corporativas**: Adicionar suporte para plataformas como Microsoft 365, Slack, Trello, entre outras, facilitando a integração no dia a dia das empresas.
 4. **Segurança e Conformidade**: Garantir criptografia robusta e aderência a regulamentações como a LGPD e a GDPR.
 
 ### Possibilidades Comerciais
-
 1. **Licenciamento de Software**
    - Comercializar o **"Remember: A Link to the Past"** como um software licenciado para empresas.
    - Oferecer o modelo SaaS (Software como Serviço), permitindo que as empresas acessem a ferramenta por meio de assinaturas.
@@ -227,25 +254,27 @@ Este projeto apresenta diversas possibilidades de aprimoramento e expansão, tan
 ---
 
 ### Declaração de Isenção de Responsabilidade Legal
-`Este projeto, denominado **"Remember: A Link to the Past"**, NÃO é um clone, cópia ou reprodução direta de qualquer tecnologia proprietária. Este projeto foi desenvolvido de forma independente e tem como objetivo demonstrar conceitos de captura de tela, processamento de imagem com inteligência artificial e sistemas de busca vetorizada de informações, utilizando ferramentas e bibliotecas de código aberto.`
+> Este projeto, denominado "Remember: A Link to the Past", NÃO é um clone, cópia ou reprodução direta de qualquer tecnologia proprietária. 
+
+> Este projeto foi desenvolvido de forma independente e tem como objetivo demonstrar conceitos de captura de tela, processamento de imagem com inteligência artificial e sistemas de busca vetorizada de informações, utilizando ferramentas e bibliotecas de código aberto.
 
 ### Uso de Termos e Comparações
-`- **Não utiliza** códigos, algoritmos ou métodos proprietários.`
+> Não utiliza códigos, algoritmos ou métodos proprietários.
 
-`- **Não se apropria** de nenhum recurso, biblioteca ou API de forma indevida ou sem conformidade com as leis de propriedade intelectual.`
+> Não se apropria de nenhum recurso, biblioteca ou API de forma indevida ou sem conformidade com as leis de propriedade intelectual.
 
-`- **Não infringe** patentes, direitos autorais ou marcas registradas ou de qualquer outra entidade.`
+> Não infringe patentes, direitos autorais ou marcas registradas ou de qualquer outra entidade.
 
-### Natureza Educacional e Experimental
-
-`Este projeto foi desenvolvido com **fins educacionais e experimentais**, com o objetivo de explorar e demonstrar técnicas amplamente conhecidas na área de captura de tela e inteligência artificial, embora possam levar a aplicações comerciais posteriores. Todo o código aqui fornecido é de conhecimento ou domínio público ou feito com base em ferramentas de código aberto, sendo construído a partir do zero sem a utilização de quaisquer componentes proprietários.`
+### Natureza do Projeto
+> Este projeto foi desenvolvido com fins educacionais e experimentais, com o objetivo de explorar e demonstrar técnicas amplamente conhecidas na área de captura de tela e inteligência artificial, embora possam levar a aplicações comerciais posteriores. Todo o código aqui fornecido é de conhecimento ou domínio público ou feito com base em ferramentas de código aberto, sendo construído a partir do zero sem a utilização de quaisquer componentes proprietários.
 
 ### Respeito às Leis de Propriedade Intelectual
-
-`O autor do projeto **respeita rigorosamente** as leis de propriedade intelectual e incentiva a utilização responsável e ética do código. O uso comercial ou distribuição deste projeto não é proibido, mas deve ser feito de maneira a seguir todos os regulamentos aplicáveis de proteção de propriedade intelectual.`
-
----
+> O autor do projeto respeita rigorosamente as leis de propriedade intelectual e incentiva a utilização responsável e ética do código. O uso comercial ou distribuição deste projeto não é proibido, mas deve ser feito de maneira a seguir todos os regulamentos aplicáveis de proteção de propriedade intelectual.
 
 ---
 
 ---
+
+---
+<!-- @MuriloKrominski #MuriloKrominski
+-->
