@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+   Remember: A Link to the Past
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+
+ <body>
+  <!-- Seção de links para troca de idiomas -->
+  <div class="language-selector">
+   <a href="https://murilokrominski.github.io/Remember-A-Link-to-the-Past/en-us.html">
+    <img alt="Bandeira dos Estados Unidos para troca de idioma" src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" style="border-radius: 5px;" width="40"/>
+   </a>
+  </div>
+  <h1 id="remember-a-link-to-the-past-v1-0-beta-">
+   Remember: A Link to the Past
+   <code>
+    v1.0-beta
+   </code>
+  </h1>
+  <center>
+  <p>
+    Por
+    <a href="https://github.com/MuriloKrominski" target="_blank">
+     Murilo Krominski
+    </a>
+   </p>
+  </center>
+
+  <p>
+   <strong>
+    Uma Solução Inovadora para Empresas
+   </strong>
+   - Tenha o Poder de "Voltar no Tempo" e de Redescobrir Cada Detalhe do Trabalho Realizado!
+  </p>
+  <p>
+   Este é um projeto inovador que cria funcionalidades que permitem aos usuários/gestores "voltar no tempo" para encontrar um registro de qualquer atividade realizada no computador, trazendo uma alternativa acessível e poderosa para empresas e desenvolvedores.
+  </p>
+  
+  <h2 id="-ndice">
+   Índice
+  </h2>
+  <ul>
+   <li>
+    <a href="#contato">
+     Contato
+    </a>
+   </li>
+   <li>
+    <a href="#o-que-é-o-remember-a-link-to-the-past">
+     O que é o "Remember: A Link to the Past"?
+    </a>
+   </li>
+   <li>
+    <a href="#principais-benefícios">
+     Principais Benefícios
+    </a>
+   </li>
+   <li>
+    <a href="#para-quem-é-ideal">
+     Para Quem é Ideal
+    </a>
+   </li>
+   <li>
+    <a href="#fluxo-e-funcionalidades">
+     Fluxo e Funcionalidades
+    </a>
+   </li>
+   <li>
+    <a href="#passo-a-passo-para-implementação">
+     Passo a Passo para Implementação
+    </a>
+    <ul>
+     <li>
+      <a href="#1-captura-de-tela">
+       1. Captura de Tela
+      </a>
+     </li>
+     <li>
+      <a href="#2-processamento-de-imagens-com-ia">
+       2. Processamento de Imagens com IA
+      </a>
+     </li>
+     <li>
+      <a href="#3-armazenamento-e-busca">
+       3. Armazenamento e Busca
+      </a>
+     </li>
+     <li>
+      <a href="#4-interface-de-busca">
+       4. Interface de Busca
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#dados-técnicos-avançados">
+     Dados Técnicos Avançados
+    </a>
+   </li>
+   <li>
+    <a href="#oportunidades-de-melhorias-e-expansão-comercial">
+     Oportunidades de Melhoria e Expansão Comercial
+    </a>
+    <ul>
+     <li>
+      <a href="#melhorias-potenciais">
+       Melhorias Potenciais
+      </a>
+     </li>
+     <li>
+      <a href="#possibilidades-comerciais">
+       Possibilidades Comerciais
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#declaração-de-isenção-de-responsabilidade-legal">
+     Declaração de Isenção de Responsabilidade Legal
+    </a>
+   </li>
+   <li>
+    <a href="#uso-de-termos-e-comparações">
+     Uso de Termos e Comparações
+    </a>
+   </li>
+   <li>
+    <a href="#natureza-do-projeto">
+     Natureza do Projeto
+    </a>
+   </li>
+   <li>
+    <a href="#respeito-às-leis-de-propriedade-intelectual">
+     Respeito às Leis de Propriedade Intelectual
+    </a>
+   </li>
+  </ul>
+  
+  <h2 id="contato-">
+   Contato:
+  </h2>
+  <p>
+   <strong>Versões comerciais de projetos podem ser desenvolvidas sob demanda para empresas interessadas. Entre em contato:</strong>
+
+   <a href="https://github.com/MuriloKrominski" target="_blank">
+    https://github.com/MuriloKrominski
+   </a>
+  </p>
+
+<blockquote>
+<ul>
+<li>Apoie financeiramente o código aberto e ajude a construir um futuro mais colaborativo e inovador, onde o conhecimento é compartilhado e o progresso é coletivo.</li>
+<li>Seu patrocínio ajuda desenvolvedores, como eu, a dedicar mais tempo ao desenvolvimento de novos projetos, novas funcionalidades, correção de bugs e manter tudo atualizado.</li>
+</ul>
+</blockquote>
+
+  <!-- Seção de iframe -->
+<div class="iframe-container">
+  <iframe id="dynamic-iframe" class="responsive-iframe" src="https://github.com/sponsors/MuriloKrominski/card" title="Sponsor MuriloKrominski"></iframe>
+</div>
+
+<script>
+  function resizeIframe() {
+      var iframe = document.getElementById('dynamic-iframe');
+      iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+
+  document.getElementById('dynamic-iframe').onload = resizeIframe;
+</script>
+
+<ul>
+  <li><a href="https://github.com/sponsors/MuriloKrominski">Patrocine via GitHub Sponsors</a></li>
+</ul>
+  
+  <h2 id="o-que-o-remember-a-link-to-the-past-">
+   O que é o "Remember: A Link to the Past"?
+  </h2>
+  <p>
+   O
+   <strong>
+    Remember: A Link to the Past
+   </strong>
+   é uma solução open-source desenvolvida para empresas e equipes que buscam otimizar a gestão e recuperação de informações. Ele captura periodicamente a tela do usuário, processa as imagens com inteligência artificial e armazena os dados em um banco de dados. Com uma interface intuitiva, permite buscas rápidas e eficientes de qualquer momento do passado.
+  </p>
+  <p>
+   A tecnologia avançada do Remember centraliza e organiza todas as informações essenciais, garantindo acesso rápido e preciso a documentos, dados e insights, transformando o fluxo de trabalho da equipe.
+  </p>
+  
+  <h2 id="principais-benef-cios-">
+   Principais Benefícios:
+  </h2>
+  <ul>
+   <li>
+    <strong>
+     Busca Inteligente
+    </strong>
+    : Recupere rapidamente documentos e registros com a ajuda de IA.
+   </li>
+   <li>
+    <strong>
+     Organização Centralizada
+    </strong>
+    : Armazene e acesse informações de forma segura e prática.
+   </li>
+   <li>
+    <strong>
+     Colaboração em Tempo Real
+    </strong>
+    : Compartilhamento ágil e integração com outras ferramentas.
+   </li>
+   <li>
+    <strong>
+     Privacidade e Segurança
+    </strong>
+    : Controle total sobre os dados com opções de armazenamento local.
+   </li>
+   <li>
+    <strong>
+     Produtividade
+    </strong>
+    : Aumente a eficiência com acesso rápido às informações.
+   </li>
+   <li>
+    <strong>
+     Custo-Benefício
+    </strong>
+    : Solução robusta sem necessidade de hardware avançado.
+   </li>
+  </ul>
+  
+  <h2 id="para-quem-ideal-">
+   Para Quem é Ideal:
+  </h2>
+  <ul>
+   <li>
+    <strong>
+     Empresas de todos os portes
+    </strong>
+    que precisam otimizar a organização e recuperação de dados.
+   </li>
+   <li>
+    <strong>
+     Profissionais de TI e gestores
+    </strong>
+    em busca de centralizar o conhecimento da equipe.
+   </li>
+   <li>
+    <strong>
+     Equipes de marketing, vendas e operações
+    </strong>
+    que precisam de agilidade para acessar informações.
+   </li>
+  </ul>
+  
+  <h2 id="fluxo-e-funcionalidades">
+   Fluxo e Funcionalidades
+  </h2>
+  <ol>
+   <li>
+    <strong>
+     Captura de Tela Automática
+    </strong>
+    : Captura screenshots a intervalos de tempo definidos e armazena localmente.
+   </li>
+   <li>
+    <strong>
+     Processamento de Imagens com IA
+    </strong>
+    : As imagens capturadas são processadas para identificar aplicativos abertos, transcrever textos e gerar descrições e outros metadados.
+   </li>
+   <li>
+    <strong>
+     Banco de Dados e Armazenamento Vetorial
+    </strong>
+    : As descrições e metadados extraídos são salvos e vetorizados em um banco de dados, permitindo buscas rápidas e eficientes no futuro.
+   </li>
+   <li>
+    <strong>
+     Busca por Eventos Passados
+    </strong>
+    : Através de uma interface simples, o usuário pode buscar momentos anteriores, utilizando uma busca semântica eficiente para encontrar eventos específicos.
+   </li>
+  </ol>
+  
+  <h2 id="passo-a-passo-para-implementa-o">
+   Passo a Passo para Implementação
+  </h2>
+  <p>
+   Aqui está uma visão geral das etapas de implementação e sugestões de códigos:
+  </p>
+  <h3 id="1-captura-de-tela">
+   1. Captura de Tela
+  </h3>
+  <p>
+   Para capturar telas do computador a cada minuto.
+  </p>
+  <pre><code class="lang-python"><span class="hljs-keyword">import</span> pyautogui
+<span class="hljs-keyword">import</span> time
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">captura_tela</span><span class="hljs-params">(intervalo=<span class="hljs-number">60</span>, caminho=<span class="hljs-string">'./screenshots/'</span>)</span>:</span>
+    <span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+        screenshot = pyautogui.screenshot()
+        screenshot.save(f<span class="hljs-string">"{caminho}{time.time()}.png"</span>)
+        time.sleep(intervalo)
+</code></pre>
+  <p>
+   A função de captura de tela pode ser otimizada de várias formas, para gerar um timestamp automaticamente e armazenar as imagens de forma organizada, com suporte a múltiplos diretórios baseados em data.
+  </p>
+  <pre><code class="lang-python">def take_screenshot():
+    timestamp = datetime.now().strftime(<span class="hljs-string">"%Y-%m-%d_%H-%M-%S"</span>)
+    save_directory = create_directory_for_today()
+    img_path = f<span class="hljs-string">"{save_directory}/screenshot_{timestamp}.png"</span>
+    screenshot.save(img_path)
+</code></pre>
+  
+  <h3 id="2-processamento-de-imagens-com-ia">
+   2. Processamento de Imagens com IA
+  </h3>
+  <p>
+   Utilizando um modelo de IA para analisar o conteúdo das imagens capturadas.
+  </p>
+  <pre><code class="lang-python"><span class="hljs-keyword">from</span> modelo_ia <span class="hljs-keyword">import</span> processar_imagem
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">analisar_imagem</span><span class="hljs-params">(caminho_imagem)</span>:</span>
+    descricao = processar_imagem(caminho_imagem)
+    <span class="hljs-keyword">return</span> descricao
+</code></pre>
+  <p>
+   Para integrar um sistema mais robusto para processamento de imagens com IA, pode ser interessante utilizar o modelo da OpenAI ou outros modelos para realizar inferências sobre o conteúdo visual.
+  </p>
+  <pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">process_image</span><span class="hljs-params">(<span class="hljs-keyword">self</span>, img_path, prompt=<span class="hljs-string">"Descreva o que está vendo na imagem"</span>)</span></span>:
+    img = <span class="hljs-keyword">self</span>.load_image(img_path)
+    inputs = [{<span class="hljs-string">"type"</span>: <span class="hljs-string">"text"</span>, <span class="hljs-string">"text"</span>: prompt}]
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">self</span>.chat.invoke(inputs)
+</code></pre>
+  
+  <h3 id="3-armazenamento-e-busca">
+   3. Armazenamento e Busca
+  </h3>
+  <p>
+   Os dados processados são armazenados e podem ser buscados posteriormente por conteúdo relevante.
+  </p>
+  <pre><code class="lang-python"><span class="hljs-keyword">from</span> vector_store <span class="hljs-keyword">import</span> armazenar_dados, buscar_por_conteudo
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">salvar_e_pesquisar</span><span class="hljs-params">(descricao, conteudo_busca)</span>:</span>
+    armazenar_dados(descricao)
+    <span class="hljs-keyword">return</span> buscar_por_conteudo(conteudo_busca)
+</code></pre>
+  <p>
+   Para uma abordagem simplificada, podemos utilizar o
+   <strong>
+    Ollama Embeddings
+   </strong>
+   para gerar vetores dos documentos e o
+   <strong>
+    FAISS
+   </strong>
+   para realizar buscas de similaridade.
+  </p>
+  <p>
+   O código pode facilmente ser otimizado para executar localmente e conectar com um servidor configurado para lidar com embeddings personalizados.
+  </p>
+  <pre><code class="lang-python"><span class="hljs-attr">embeddings</span> = OllamaEmbeddings(base_url=ollama_server_url, model=<span class="hljs-string">'nomic-embed-text'</span>)
+<span class="hljs-attr">vectorstore</span> = FAISS.from_documents(documents, embeddings)
+</code></pre>
+  
+  <h3 id="4-interface-de-busca">
+   4. Interface de Busca
+  </h3>
+  <p>
+   Implementando uma interface simples para facilitar a pesquisa.
+  </p>
+  <pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">interface_de_busca</span><span class="hljs-params">()</span>:</span>
+    busca = input(<span class="hljs-string">"Digite o que deseja encontrar: "</span>)
+    resultado = salvar_e_pesquisar(busca)
+    print(f<span class="hljs-string">"Resultado encontrado: {resultado}"</span>)
+</code></pre>
+  <p>
+   Com uma interface construída com
+   <strong>
+    Streamlit
+   </strong>
+   , o usuário pode realizar buscas facilmente no histórico de atividades, utilizando uma barra de pesquisa. A interface apresenta resultados relevantes, incluindo o conteúdo da imagem, texto extraído, e um link para o local da captura no histórico.
+  </p>
+  <pre><code class="lang-python"><span class="hljs-keyword">query</span> = <span class="hljs-keyword">st</span>.text_input(<span class="hljs-string">"O que você procura?"</span>)
+<span class="hljs-keyword">if</span> <span class="hljs-keyword">query</span>:
+    similar_response = vectorstore.similarity_search_with_score(<span class="hljs-keyword">query</span>, k=k)
+    <span class="hljs-keyword">st</span>.image(Image.<span class="hljs-keyword">open</span>(similar_response[s][0].metadata[<span class="hljs-string">"source"</span>]))
+</code></pre>
+  
+  <h2 id="dados-t-cnicos-avan-ados">
+   Dados Técnicos Avançados
+  </h2>
+  <p>
+   O projeto utiliza tecnologias acessíveis, com grande potencial de expansão e personalização:
+  </p>
+  <ul>
+   <li>
+    <strong>
+     Captura de Tela
+    </strong>
+    : Implementada com a biblioteca
+    <strong>
+     PyAutoGUI
+    </strong>
+    , configurável para intervalos regulares.
+   </li>
+   <li>
+    <strong>
+     Processamento de Imagem
+    </strong>
+    : A IA processa as capturas utilizando modelos como
+    <strong>
+     PHY3
+    </strong>
+    ,
+    <strong>
+     OpenAI CLIP
+    </strong>
+    ou equivalentes.
+   </li>
+   <li>
+    <strong>
+     Armazenamento de Dados
+    </strong>
+    : As descrições são salvas em bancos de dados relacionais ou NoSQL, como
+    <strong>
+     SQLite
+    </strong>
+    ,
+    <strong>
+     MongoDB
+    </strong>
+    ou
+    <strong>
+     PostgreSQL
+    </strong>
+    .
+   </li>
+   <li>
+    <strong>
+     Busca Vetorial
+    </strong>
+    : Vetorização das informações em uma
+    <strong>
+     vector store
+    </strong>
+    , permitindo buscas rápidas e eficientes através de embeddings.
+   </li>
+   <li>
+    <strong>
+     Python
+    </strong>
+    : Linguagem principal do projeto.
+   </li>
+  </ul>
+  
+  <h2 id="oportunidades-de-melhorias-e-expans-o-comercial">
+   Oportunidades de Melhorias e Expansão Comercial
+  </h2>
+  <p>
+   Este projeto apresenta diversas possibilidades de aprimoramento e expansão, tanto como produto quanto como serviço, oferecendo várias oportunidades de negócio:
+  </p>
+  <h3 id="melhorias-potenciais">
+   Melhorias Potenciais
+  </h3>
+  <ol>
+   <li>
+    <strong>
+     Aprimoramento do Reconhecimento de Imagens
+    </strong>
+    : Desenvolver modelos de IA treinados especificamente para o contexto da empresa, aumentando a precisão e a relevância das buscas.
+   </li>
+   <li>
+    <strong>
+     Pesquisa Semântica Avançada
+    </strong>
+    : Implementar um sistema de busca baseado na intenção do usuário, indo além das simples palavras-chave com LLM avançado.
+   </li>
+   <li>
+    <strong>
+     Integração com Ferramentas Corporativas
+    </strong>
+    : Adicionar suporte para plataformas como Microsoft 365, Slack, Trello, entre outras, facilitando a integração no dia a dia das empresas.
+   </li>
+   <li>
+    <strong>
+     Segurança e Conformidade
+    </strong>
+    : Garantir criptografia robusta e aderência a regulamentações como a LGPD e a GDPR.
+   </li>
+  </ol>
+  <h3 id="possibilidades-comerciais">
+   Possibilidades Comerciais
+  </h3>
+  <ol>
+   <li>
+    <p>
+     <strong>
+      Licenciamento de Software
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Comercializar como um software licenciado para empresas.
+     </li>
+     <li>
+      Oferecer o modelo SaaS (Software como Serviço), permitindo que as empresas acessem a ferramenta por meio de assinaturas.
+     </li>
+    </ul>
+   </li>
+   <li>
+    <p>
+     <strong>
+      Consultoria e Customização
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Oferecer serviços de consultoria para adaptar a solução às necessidades específicas dos clientes.
+     </li>
+     <li>
+      Realizar customizações que integrem a ferramenta aos fluxos de trabalho já existentes.
+     </li>
+    </ul>
+   </li>
+   <li>
+    <p>
+     <strong>
+      Exploração de Nichos
+     </strong>
+    </p>
+    <ul>
+     <li>
+      <strong>
+        Produtividade
+       </strong>
+       : Informações como a quantidade de tempo gasto em tarefas (urgentes, importantes, circunstanciais ou recreativas) certamente poderiam ajudar a medir e otimizar a performace.
+      </li>
+      <li>      
+      <strong>
+       Setor Jurídico
+      </strong>
+      : Escritórios de advocacia podem usar o "Remember: A Link to the Past" para documentar e recuperar informações de sessões de trabalho.
+     </li>
+     <li>
+      <strong>
+       Agências Criativas
+      </strong>
+      : Profissionais de design e marketing podem recuperar facilmente ideias e projetos anteriores, otimizando o processo criativo.
+     </li>
+    </ul>
+   </li>
+   <li>
+    <p>
+     <strong>
+      Serviços Premium
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Oferecer versões premium com recursos adicionais, como maior capacidade de armazenamento, processamento mais rápido e integrações avançadas com outras plataformas.
+     </li>
+    </ul>
+   </li>
+  </ol>
+  <hr/>
+  <hr/>
+  <hr/>
+  <h3 id="declara-o-de-isen-o-de-responsabilidade-legal">
+   Declaração de Isenção de Responsabilidade Legal
+  </h3>
+  <blockquote>
+   <p>
+    Este projeto, denominado "Remember: A Link to the Past", NÃO é um clone, cópia ou reprodução direta de qualquer tecnologia proprietária.
+   </p>
+   <p>
+    Este projeto foi desenvolvido de forma independente e tem como objetivo demonstrar conceitos de captura de tela, processamento de imagem com inteligência artificial e sistemas de busca vetorizada de informações, utilizando ferramentas e bibliotecas de código aberto.
+   </p>
+  </blockquote>
+  <h3 id="uso-de-termos-e-compara-es">
+   Uso de Termos e Comparações
+  </h3>
+  <blockquote>
+   <p>
+    Não utiliza códigos, algoritmos ou métodos proprietários.
+   </p>
+   <p>
+    Não se apropria de nenhum recurso, biblioteca ou API de forma indevida ou sem conformidade com as leis de propriedade intelectual.
+   </p>
+   <p>
+    Não infringe patentes, direitos autorais ou marcas registradas ou de qualquer outra entidade.
+   </p>
+  </blockquote>
+  <h3 id="natureza-do-projeto">
+   Natureza do Projeto
+  </h3>
+  <blockquote>
+   <p>
+    Este projeto foi desenvolvido com fins educacionais e experimentais, com o objetivo de explorar e demonstrar técnicas amplamente conhecidas na área de captura de tela e inteligência artificial, embora possam levar a aplicações comerciais posteriores.
+  </p>
+   <p>
+    Todo o código aqui fornecido é de conhecimento ou domínio público ou feito com base em ferramentas de código aberto, sendo construído a partir do zero sem a utilização de quaisquer componentes proprietários.
+   </p>
+  </blockquote>
+  <h3 id="respeito-s-leis-de-propriedade-intelectual">
+   Respeito às Leis de Propriedade Intelectual
+  </h3>
+  <blockquote>
+   <p>
+    O autor do projeto respeita rigorosamente as leis de propriedade intelectual e incentiva a utilização responsável e ética do código.
+   </p>
+   <p> 
+    O uso comercial ou distribuição deste projeto não é proibido, mas deve ser feito de maneira a seguir todos os regulamentos aplicáveis de proteção de propriedade intelectual.
+   </p>
+  </blockquote>
+  <hr/>
+  <hr/>
+  <hr/>
+  <!-- @MuriloKrominski #MuriloKrominski
+-->
+ </body>
+</html>
