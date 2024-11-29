@@ -1,0 +1,4 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://murilokrominski.github.io/Remember-A-Link-to-the-Past/sitemap.xml

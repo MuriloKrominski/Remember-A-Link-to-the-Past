@@ -1,0 +1,24 @@
+# Requirements for the "Remember: A Link to the Past" project
+# Requisitos para o projeto "Remember: A Link to the Past"
+
+# Screen capturing / Captura de tela
+pyautogui==0.9.53
+
+# Image processing / Processamento de imagens
+Pillow==10.3.0
+
+# Data storage in relational or NoSQL databases / Armazenamento de dados em bancos relacionais ou NoSQL
+sqlite3  # for SQLite, built-in with Python / para SQLite, já embutido no Python
+pymongo==4.0.1  # for MongoDB (optional, if using MongoDB) / para MongoDB (opcional, se usar MongoDB)
+
+# AI models and embeddings / Modelos de IA e embeddings (substitua conforme seu modelo)
+openai==0.10.5  # For OpenAI models (optional) / Para modelos da OpenAI (opcional)
+faiss-cpu==1.7.2  # For efficient vector search / Para busca vetorial eficiente
+sentence-transformers==2.2.2  # To generate text embeddings / Para gerar embeddings de texto
+
+# User interface / Interface de usuário (opcional)
+streamlit==1.37.0
+
+# Other dependencies / Outras dependências
+numpy==1.21.2  # Commonly used in many AI models / Usado em muitos modelos de IA
+scikit-learn==1.0.1  # Might be needed for machine learning operations / Pode ser necessário para operações de ML
